@@ -27,4 +27,6 @@ Inconvénients :
 - Ne peut pas porter d'armure
 - Ne peut pas dépenser de points de compétence.
 
-Note : pour auto-identifier l'armure qu'il gagne aux niveau 10, 15 et 20, essayez de l'enlever.
+Notes :
+- Pour auto-identifier l'armure qu'il gagne aux niveau 10, 15 et 20, essayez de l'enlever.
+- Sa capacité Invocation de princes élémentaires peut appeler deux fois le même Seigneur élémentaire.
