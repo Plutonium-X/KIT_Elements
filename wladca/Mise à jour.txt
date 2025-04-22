@@ -1,0 +1,10 @@
+V2 :
+- Traduction française.
+- Mise à jour pour BG2EE et EET.
+- Le mod patch les sorts existants au lieu d'installer des versions personnelles.
+- Suppression d'une ligne en trop dans le description : pas d'Invocation d'élémentaire d'air.
+- Ajout d'une ligne manquante dans la description : sort présent et installé : Nuage incendiaire niveau 7.
+- Renommage du CLABFI9.2D4 (pouvant rentrer en conflit avec d'autres mods) en wladca.2DA
+- Renommage du répertoire en wladca.
+- Rajout de l'armure élémentaire version 3 normalement accessible au niveau 20 mais non installée.
+- Rajout du nom et de la description manquants pour les armures.

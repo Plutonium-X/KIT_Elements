@@ -1,0 +1,191 @@
+BACKUP ~wladca/backup~
+AUTHOR "Aroc (Ioannis Mantzouranis, aroc@otenet.gr)"
+
+AUTO_TRA ~wladca/tra/%s~
+
+LANGUAGE ~Polish (Lord Pawello)~
+  ~polish~
+  ~wladca/tra/polish/setup.tra~
+  
+LANGUAGE ~Francais~
+  ~french~
+  ~wladca/tra/french/setup.tra~
+  
+LANGUAGE ~Francais pour les editions EE~
+  ~frenchEE~
+  ~wladca/tra/frenchEE/setup.tra~
+  
+
+
+BEGIN @1
+
+ADD_KIT ~wladca~ 
+
+~wladca                 0           0           0           0           0           0           0           0~
+
+~wladca 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
+
+/* this line is appened to ABCLASRQ.2DA */
+~wladca                 0      0      0      14       16      15~
+
+/* this line is appened to ABCLSMOD.2DA */
+~wladca                 -2      -2      -4      0       0       0~
+
+/* this line is appened to ABDCDSRQ.2DA */
+~wladca                 0      0      0       0       0      0~
+
+/* this line is appened to ABDCSCRQ.2DA */
+~wladca                 0      0      0       0       0      0~
+
+/* this line is appened to ALIGNMNT.2DA */
+~wladca         0       0       0       0       1       0       0     0       0~
+
+
+/* this line goes to DUALCLAS.2DA */
+~wladca               0       0       0       0       0       0~
+
+/* this is the name of your abilities 2DA file, in the style of
+ * clabrn02.2da */
+~wladca/wladca.2DA~
+
+/* These are the 2da files listed in KITTABLE.2DA that you want your kit to
+ * be a part of. List as many as you like. */
+~K_D_H K_D_HE~
+
+/* This is the "unusable" value you want for you kit and also the class
+ * value. These would normally appear at the end of KITLIST.2DA */
+~0x10000000	11~
+
+/* This is the High Level Ability Abbreviation (see LUABBR.2DA)
+ * Normal values are Fi0, Pa0, etc. */
+~Dr2~
+
+/* This is the TOB starting equipment list. Put a * if you don't want 
+ * something. See 25STWEAP.2DA. */
+~LEAT20 DART03,40 HELM07 BAG26 RING06 RING31 CLCK27 BOOT01 AMUL19 BRAC10 BELT06 AROW11,40 BULL03,40 BOLT06,40 POTN52,5 POTN04,2 POTN14,5 BOW11 BOW19 XBOW06~
+
+/* These are the strings you want for the lower, mixed and help
+ * descriptions for your kit. */
+SAY @2
+SAY @3
+SAY @4
+
+ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
+	INCLUDE ~wladca/fl#add_kit_ee.tpa~
+	LAF fl#add_kit_ee	STR_VAR kit_name = wladca	END
+END
+
+COPY_EXISTING	~spwi103.spl~	~override/plonaced.spl~
+				~spwi211.spl~	~override/kwasstrz.spl~
+				~spwi304.spl~	~override/kulaaaaa.spl~
+				~spwi308.spl~	~override/ognstrza.spl~
+				~spwi403.spl~	~override/tarczabi.spl~
+				~spwi418.spl~	~override/tarczacz.spl~
+				~spwi404.spl~	~override/lodowana.spl~
+				~spwi503.spl~	~override/stozekzi.spl~
+				~spwi615.spl~	~override/lancuchw.spl~
+				~spwi614.spl~	~override/zabojcza.spl~	WRITE_BYTE 0x1c 2
+				
+COPY_EXISTING	~spwi810.spl~	~override/zapalajc.spl~
+				~spwi922.spl~	~override/oddechs.spl~
+				~spwi925.spl~	~override/kometa1.spl~	WRITE_BYTE 0x1c 2	WRITE_BYTE 0x34 7
+
+COPY_EXISTING	~sppr605.spl~	~override/zywogien.spl~
+				~sppr702.spl~	~override/zywziemi.spl~
+				~sppr723.spl~	~override/przyzwzw.spl~
+				~sppr724.spl~	~override/przyzwks.spl~
+				WRITE_LONG 0x18 (THIS | 49152) WRITE_BYTE 0x1c 4
+				GET_OFFSET_ARRAY headerOffsets SPL_V10_HEADERS
+				PHP_EACH headerOffsets AS _ => headerOffset BEGIN	WRITE_BYTE (headerOffset + 0x2) 4 END
+
+COPY ~wladca/zbrojadr.ITM~   ~override~	SAY NAME2 @30	SAY DESC @31
+COPY ~wladca/zbrojad1.ITM~   ~override~	SAY NAME2 @30	SAY DESC @32
+COPY ~wladca/zbrojad2.ITM~   ~override~	SAY NAME2 @30	SAY DESC @33
+COPY ~wladca/zbrojadr.SPL~   ~override~
+COPY_EXISTING	~zbrojadr.spl~	~override/zbrojad1.spl~		WRITE_ASCII 0xae ~zbrojad1~ #8
+COPY_EXISTING	~zbrojadr.spl~	~override/zbrojad2.spl~		WRITE_ASCII 0xae ~zbrojad2~ #8
+COPY ~wladca/LUDR2.2DA~	~override~
+
+
+
+/*
+COPY ~wladca/kulaaaaa.SPL~   ~override/kulaaaaa.SPL~	
+  SAY NAME1 @11
+  SAY NAME2 @11
+  SAY UNIDENTIFIED_DESC @12
+
+COPY ~wladca/kwasstrz.SPL~   ~override/kwasstrz.SPL~
+  SAY NAME1 @9
+  SAY NAME2 @9
+  SAY UNIDENTIFIED_DESC @10
+
+COPY ~wladca/odpornos.SPL~   ~override/odpornos.SPL~	
+
+COPY ~wladca/ognstrza.SPL~   ~override/ognstrza.SPL~
+  SAY NAME1 @13
+  SAY NAME2 @13
+  SAY UNIDENTIFIED_DESC @14	
+
+COPY ~wladca/stozekzi.SPL~   ~override/stozekzi.SPL~	
+  SAY NAME1 @21
+  SAY NAME2 @21
+  SAY UNIDENTIFIED_DESC @22
+
+COPY ~wladca/tarczabi.SPL~   ~override/tarczabi.SPL~
+  SAY NAME1 @5
+  SAY NAME2 @5
+  SAY UNIDENTIFIED_DESC @6
+
+COPY ~wladca/zbrojadr.ITM~   ~override/zbrojadr.ITM~
+
+COPY ~wladca/zbrojadr.SPL~   ~override/zbrojadr.SPL~
+	
+COPY ~wladca/zbrojad1.ITM~   ~override/zbrojad1.ITM~
+
+COPY ~wladca/zbrojad1.SPL~   ~override/zbrojad1.SPL~
+
+COPY ~wladca/kometa1.SPL~   ~override/kometa1.SPL~
+  SAY NAME1 @28
+  SAY NAME2 @28
+  SAY UNIDENTIFIED_DESC @29
+
+COPY ~wladca/oddechs.SPL~   ~override/oddechs.SPL~
+  SAY NAME1 @26
+  SAY NAME2 @26
+  SAY UNIDENTIFIED_DESC @27
+
+COPY ~wladca/przyzwks.SPL~	~override/przyzwks.SPL~
+
+COPY ~wladca/przyzwzw.SPL~	~override/przyzwzw.SPL~
+
+COPY ~wladca/lodowana.SPL~   ~override/lodowana.SPL~
+  SAY NAME1 @17
+  SAY NAME2 @17
+  SAY UNIDENTIFIED_DESC @18
+
+COPY ~wladca/zabojcza.SPL~   ~override/zabojcza.SPL~
+  SAY NAME1 @23
+  SAY NAME2 @23
+  SAY UNIDENTIFIED_DESC @24
+
+COPY ~wladca/zapalajc.SPL~   ~override/zapalajc.SPL~
+
+COPY ~wladca/tarczacz.SPL~   ~override/tarczacz.SPL~
+  SAY NAME1 @19
+  SAY NAME2 @19
+  SAY UNIDENTIFIED_DESC @20
+
+COPY ~wladca/zywogien.SPL~   ~override/zywogien.SPL~
+
+COPY ~wladca/zywziemi.SPL~   ~override/zywziemi.SPL~
+
+COPY ~wladca/plonaced.SPL~   ~override/plonaced.SPL~
+  SAY NAME1 @7
+  SAY NAME2 @7
+  SAY UNIDENTIFIED_DESC @8
+
+COPY ~wladca/lancuchw.SPL~   ~override/lancuchw.SPL~
+  SAY NAME1 @5
+  SAY NAME2 @5
+  SAY UNIDENTIFIED_DESC @6
+*/
