@@ -1,195 +1,194 @@
-@1 = ~Kit de Druide : MaÃ®tre des Ã©lÃ©ments~
-@2 = ~MaÃ®tre des Ã©lÃ©ments~
-@3 = ~maÃ®tre des Ã©lÃ©ments~
-@4 = ~MAÃTRE DES Ã‰LÃ‰MENTS : c'est un puissant druide qui s'est consacrÃ© Å• l'Ã©tude des forces Ã©lÃ©mentaires. Ce faisant il devient physiquement faible, mais il a acquis la capacitÃ© de lancer des sorts inhabituels pour un druide.
+@1 = ~Kit de Druide : Maître des éléments~
+@2 = ~Maître des éléments~
+@3 = ~maître des éléments~
+@4 = ~MAÎTRE DES ÉLÉMENTS : c'est un puissant druide qui s'est consacré à l'étude des forces élémentaires. Ce faisant il devient physiquement faible, mais il a acquis la capacité de lancer des sorts inhabituels pour un druide.
 
 Avantages :
-- Å” accÄs Å• certains sorts arcaniques  :
- Au niveau 1 : Fains brÅ±lantes
- Au niveau 3 : FlÄche acide de Melf
- Au niveau 5 : Boule de feu et Ã‰clair
+- À accès à certains sorts arcaniques  :
+ Au niveau 1 : Fains brûlantes
+ Au niveau 3 : Flèche acide de Melf
+ Au niveau 5 : Boule de feu et Éclair
  Au niveau 7 : Bouclier de feu (rouge) et Bouclier de feu (bleu)
- Au niveau 9 : TempÄ™te glaciale et CÃ´ne de froid
- Au niveau 11 : ChaÃ®ne d'Ã©clairs et Brume mortelle
+ Au niveau 9 : Tempête glaciale et Cône de froid
+ Au niveau 11 : Chaîne d'éclairs et Brume mortelle
  Au niveau 13 : Nuage Incendiaire
-- Aux 1er, 10Äme et 20Äme niveaux, +10% de rÃ©sistance aux Ã©lÃ©ments.
-- Aux 9Äme, 13Äme et 16Äme niveaux, Invocation d'Ã©lÃ©mentaires de feu.
-- Au 10Äme niveau, il obtient l'Armure du MaÃ®tre des Ã©lÃ©ments, puis une version amÃ©liorÃ©e au niveau 15 et encore une au niveau 20.
-- Aux 11Ã¨me, 14Ã¨me et 17Ã¨me niveaux, peut lancer Invocation d'Ã©lÃ©mentaires de terre une fois par jour.
-- Aux 14Ã¨me, 17Ã¨me et 20Ã¨me niveaux, peut lancer Invocation d'Ã©lÃ©mentaires une fois par jour.
-- Aux 16Ã¨me, 19Ã¨me et 22Ã¨me niveaux, peut lancer Invocation de princes Ã©lÃ©mentaires une fois par jour.
-- Changement des capacitÃ©s de haut niveau :
-Au lieu d'Invocation d'Ã©lÃ©mentaires : ComÄte.
-Au lieu d'Invocation de princes Ã©lÃ©mentaires : Souffle de dragon.
+- Aux 1er, 10ème et 20ème niveaux, +10% de résistance aux éléments.
+- Aux 9ème, 13ème et 16ème niveaux, peut lancer Invocation d'élémentaires de feu une fois par jour.
+- Au 10ème niveau, il obtient l'Armure du Maître des éléments, puis une version améliorée au niveau 15 et encore une au niveau 20.
+- Aux 11ème, 14ème et 17ème niveaux, peut lancer Invocation d'élémentaires de terre une fois par jour.
+- Aux 14ème, 17ème et 20ème niveaux, peut lancer Invocation d'élémentaires une fois par jour.
+- Aux 16ème, 19ème et 22ème niveaux, peut lancer Invocation de princes élémentaires une fois par jour.
+Au lieu d'Invocation d'élémentaires : Comète.
+Au lieu d'Invocation de princes élémentaires : Souffle de dragon.
 
-InconvÃ©nients :
-- -2 en Force et DextÃ©ritÃ©.
+Inconvénients :
+- -2 en Force et Dextérité.
 - -4 en Constitution.
 - Minimum 14 d'intelligence
 - Ne peut pas se jumeler
 - Ne peut pas porter d'armure
-- Ne peut pas dÃ©penser de points de compÃ©tence.~
+- Ne peut pas dépenser de points de compétence.~
 
-/*@5 = ~WyÅ‚adowanie Å‚aÅ„cuchowe~
-@6 = ~WyÅ‚adowanie Å‚aÅ„cuchowe (WywoÅ‚ywanie)
+/*@5 = ~Wy³adowanie ³añcuchowe~
+@6 = ~Wy³adowanie ³añcuchowe (Wywo³ywanie)
 Poziom: 6
-ZasiÄ™g: pole widzenia
-Czas dziaÅ‚ania: natychmiastowy
+Zasiêg: pole widzenia
+Czas dzia³ania: natychmiastowy
 Czas rzucania: 5
-Obszar dziaÅ‚ania: specjalny
+Obszar dzia³ania: specjalny
 Rzut obronny: 1/2
 
-Kiedy druid rzuci to zaklÄ™cie, z jego palcÃ³w wystrzelÄ… strumienie energii elektrycznej. Te oÅ›lepiajÄ…ce bÅ‚yskawice przeskakujÄ… na wszystkich wrogÃ³w w pobliÅ¼u druida, poraÅ¼ajÄ…c ich prÄ…dem. BÅ‚yskawice zadajÄ… 1k6 obraÅ¼eÅ„ na 2 poziomy druida. JeÅ›li ofiara bÅ‚yskawicy wykona udany rzut obronny, to otrzyma tylko poÅ‚owÄ™ obraÅ¼eÅ„. Tak wiÄ™c druid 12 poziomu zadaje swoimi bÅ‚yskawicami 6k6 obraÅ¼eÅ„ (3k6 jeÅ›li ofiara odeprze czar).~
-@7 = ~PÅ‚onÄ…ce dÅ‚onie~
-@8 = ~PÅ‚onÄ…ce dÅ‚onie (Przemiany)
+Kiedy druid rzuci to zaklêcie, z jego palców wystrzel¹ strumienie energii elektrycznej. Te oœlepiaj¹ce b³yskawice przeskakuj¹ na wszystkich wrogów w pobli¿u druida, pora¿aj¹c ich pr¹dem. B³yskawice zadaj¹ 1k6 obra¿eñ na 2 poziomy druida. Jeœli ofiara b³yskawicy wykona udany rzut obronny, to otrzyma tylko po³owê obra¿eñ. Tak wiêc druid 12 poziomu zadaje swoimi b³yskawicami 6k6 obra¿eñ (3k6 jeœli ofiara odeprze czar).~
+@7 = ~P³on¹ce d³onie~
+@8 = ~P³on¹ce d³onie (Przemiany)
 Poziom: 1
-ZasiÄ™g: 1,5 metra
-Czas dziaÅ‚ania: natychmiastowy
+Zasiêg: 1,5 metra
+Czas dzia³ania: natychmiastowy
 Czas rzucania: 1
-Obszar dziaÅ‚ania: 60' stoÅ¼ek
+Obszar dzia³ania: 60' sto¿ek
 Rzut obronny: 1/2
 
-Kiedy druid rzuci to zaklÄ™cie, z jego palcÃ³w wystrzeliwuje jÄ™zyk pÅ‚omieni. PÅ‚omienie majÄ… dÅ‚ugoÅ›Ä‡ 1,5 m i tworzÄ… przed rzucajÄ…cym czar Å‚uk o kÄ…cie 120 stopni. KaÅ¼da istota znajdujÄ…ca siÄ™ w obszarze dziaÅ‚ania otrzymuje 1-3 punktÃ³w obraÅ¼eÅ„ od ognia plus 2 punkty za kaÅ¼dy poziom rzucajÄ…cego czar, przy czym maksymalna liczba moÅ¼liwych punktÃ³w obraÅ¼eÅ„ wynosi 1-3 + 20. JeÅ›li ofiara wykona udany rzut obronny przeciw czarom, to otrzymuje poÅ‚owÄ™ obraÅ¼eÅ„.~
-@9 = ~Kwasowa strzaÅ‚a Melfa~
-@10 = ~Kwasowa strzaÅ‚a Melfa (Sprowadzanie)
+Kiedy druid rzuci to zaklêcie, z jego palców wystrzeliwuje jêzyk p³omieni. P³omienie maj¹ d³ugoœæ 1,5 m i tworz¹ przed rzucaj¹cym czar ³uk o k¹cie 120 stopni. Ka¿da istota znajduj¹ca siê w obszarze dzia³ania otrzymuje 1-3 punktów obra¿eñ od ognia plus 2 punkty za ka¿dy poziom rzucaj¹cego czar, przy czym maksymalna liczba mo¿liwych punktów obra¿eñ wynosi 1-3 + 20. Jeœli ofiara wykona udany rzut obronny przeciw czarom, to otrzymuje po³owê obra¿eñ.~
+@9 = ~Kwasowa strza³a Melfa~
+@10 = ~Kwasowa strza³a Melfa (Sprowadzanie)
 Poziom: 2
-ZasiÄ™g: pole widzenia
-Czas dziaÅ‚ania: specjalny
+Zasiêg: pole widzenia
+Czas dzia³ania: specjalny
 Czas rzucania: 2
-Obszar dziaÅ‚ania: 1 istota
+Obszar dzia³ania: 1 istota
 Rzut obronny: specjalny
 
-Czar ten tworzy magicznÄ… strzaÅ‚Ä™, ktÃ³ra nieomylnie pÄ™dzi do wybranego celu. StrzaÅ‚a jako taka nie posiada premii do trafienia czy zadawanych ran, zadaje jednak 2-8 obraÅ¼eÅ„ od kwasu (ewentualny odprysk nie zadaje dodatkowych obraÅ¼eÅ„). Na kaÅ¼de trzy poziomy rzucajÄ…cego czar, kwas rani danÄ… istotÄ™ przez dodatkowÄ… rundÄ™, zadajÄ…c kolejne 2-8 obraÅ¼eÅ„. Tak wiÄ™c na 3-5 poziomie kwas dziaÅ‚a przez dwie rundy, na 6-8 przez trzy itd.~
+Czar ten tworzy magiczn¹ strza³ê, która nieomylnie pêdzi do wybranego celu. Strza³a jako taka nie posiada premii do trafienia czy zadawanych ran, zadaje jednak 2-8 obra¿eñ od kwasu (ewentualny odprysk nie zadaje dodatkowych obra¿eñ). Na ka¿de trzy poziomy rzucaj¹cego czar, kwas rani dan¹ istotê przez dodatkow¹ rundê, zadaj¹c kolejne 2-8 obra¿eñ. Tak wiêc na 3-5 poziomie kwas dzia³a przez dwie rundy, na 6-8 przez trzy itd.~
 @11 = ~Ognista kula~
-@12 = ~Ognista kula (WywoÅ‚ywanie)
+@12 = ~Ognista kula (Wywo³ywanie)
 Poziom: 3
-ZasiÄ™g: pole widzenia
-Czas dziaÅ‚ania: natychmiastowy
+Zasiêg: pole widzenia
+Czas dzia³ania: natychmiastowy
 Czas rzucania: 3
-Obszar dziaÅ‚ania: w promieniu 10 m
+Obszar dzia³ania: w promieniu 10 m
 Rzut obronny: 1/2
 
-RzucajÄ…c ten czar druid kieruje swÃ³j palec w danÄ… stronÄ™ i okreÅ›la miejsce (odlegÅ‚oÅ›Ä‡ i wysokoÅ›Ä‡), w ktÃ³rym kula ma wybuchnÄ…Ä‡. Z jego palca wylatuje pÅ‚omienna smuga, ktÃ³ra - jeÅ›li nie uderzy w materialne ciaÅ‚o lub twardÄ… barierÄ™ uniemoÅ¼liwiajÄ…cÄ… dotarcie do celu - rozwija siÄ™ w kulÄ™ pÅ‚omieni (przedwczesne uderzenie powoduje wczeÅ›niejszy wybuch), ktÃ³ra zadaje obraÅ¼enia proporcjonalne do poziomu rzucajÄ…cego: 1k6 punktÃ³w na kaÅ¼dy jego poziom (maksymalnie 10k6). Istoty, ktÃ³rym uda siÄ™ wykonaÄ‡ rzut obronny, uskakujÄ…, padajÄ… na ziemiÄ™ lub przetaczajÄ… siÄ™, otrzymujÄ…c tylko poÅ‚owÄ™ obraÅ¼eÅ„.~
-@13 = ~BÅ‚yskawica~
-@14 = ~BÅ‚yskawica (WywoÅ‚ywanie)
+Rzucaj¹c ten czar druid kieruje swój palec w dan¹ stronê i okreœla miejsce (odleg³oœæ i wysokoœæ), w którym kula ma wybuchn¹æ. Z jego palca wylatuje p³omienna smuga, która - jeœli nie uderzy w materialne cia³o lub tward¹ barierê uniemo¿liwiaj¹c¹ dotarcie do celu - rozwija siê w kulê p³omieni (przedwczesne uderzenie powoduje wczeœniejszy wybuch), która zadaje obra¿enia proporcjonalne do poziomu rzucaj¹cego: 1k6 punktów na ka¿dy jego poziom (maksymalnie 10k6). Istoty, którym uda siê wykonaæ rzut obronny, uskakuj¹, padaj¹ na ziemiê lub przetaczaj¹ siê, otrzymuj¹c tylko po³owê obra¿eñ.~
+@13 = ~B³yskawica~
+@14 = ~B³yskawica (Wywo³ywanie)
 Poziom: 3
-ZasiÄ™g: 40 metrÃ³w + 10 metrÃ³w/poziom
-Czas dziaÅ‚ania: natychmiastowy
+Zasiêg: 40 metrów + 10 metrów/poziom
+Czas dzia³ania: natychmiastowy
 Czas rzucania: 3
-Obszar dziaÅ‚ania: specjalny
+Obszar dzia³ania: specjalny
 Rzut obronny: 1/2
 
-Za pomocÄ… tego czaru druid uwalnia potÄ™Å¼ne wyÅ‚adowanie energii elektrycznej, ktÃ³ra zadaje 1k6 obraÅ¼eÅ„ na jego poziom (do maksimum 10k6). Ofiarami sÄ… wszystkie istoty znajdujÄ…ce siÄ™ w obszarze dziaÅ‚ania zaklÄ™cia. Udany rzut obronny przeciw czarom zmniejsza obraÅ¼enia o poÅ‚owÄ™ (zaokrÄ…glajÄ…c w dÃ³Å‚). BÅ‚yskawica pojawia siÄ™ w odlegÅ‚oÅ›ci i na wysokoÅ›ci wybranej przez druida i skierowana jest w linii prostej od niego (np. jeÅ›li 12-metrowa bÅ‚yskawica zaczyna siÄ™ w odlegÅ‚oÅ›ci 55 metrÃ³w od maga, to jej koniec osiÄ…gnie 55+12=67 m). JeÅ¼eli bÅ‚yskawica uderzy w Å›cianÄ™, odbije siÄ™ od niej i bÄ™dzie pÄ™dziÄ‡ dalej, dopÃ³ki nie osiÄ…gnie peÅ‚ni swej dÅ‚ugoÅ›ci.~
-@15 = ~Ognista tarcza (bÅ‚Ä™kitna)~
-@16 = ~Ognista tarcza (bÅ‚Ä™kitna) (WywoÅ‚ywanie/Przemiany)
+Za pomoc¹ tego czaru druid uwalnia potê¿ne wy³adowanie energii elektrycznej, która zadaje 1k6 obra¿eñ na jego poziom (do maksimum 10k6). Ofiarami s¹ wszystkie istoty znajduj¹ce siê w obszarze dzia³ania zaklêcia. Udany rzut obronny przeciw czarom zmniejsza obra¿enia o po³owê (zaokr¹glaj¹c w dó³). B³yskawica pojawia siê w odleg³oœci i na wysokoœci wybranej przez druida i skierowana jest w linii prostej od niego (np. jeœli 12-metrowa b³yskawica zaczyna siê w odleg³oœci 55 metrów od maga, to jej koniec osi¹gnie 55+12=67 m). Je¿eli b³yskawica uderzy w œcianê, odbije siê od niej i bêdzie pêdziæ dalej, dopóki nie osi¹gnie pe³ni swej d³ugoœci.~
+@15 = ~Ognista tarcza (b³êkitna)~
+@16 = ~Ognista tarcza (b³êkitna) (Wywo³ywanie/Przemiany)
 Poziom: 4
-ZasiÄ™g: 0
-Czas dziaÅ‚ania: 3 rundy + 1 runda/poziom
+Zasiêg: 0
+Czas dzia³ania: 3 rundy + 1 runda/poziom
 Czas rzucania: 4
-Obszar dziaÅ‚ania: rzucajÄ…cy czar
+Obszar dzia³ania: rzucaj¹cy czar
 Rzut obronny: brak
 
-BÅ‚Ä™kitna tarcza chroni druidaa przed obraÅ¼eniami od zimna, otaczajÄ…c go tarczÄ… lodowych pÅ‚omieni. Nie tylko daje ona 50% odpornoÅ›ci na zimno, ale teÅ¼ chroni przed atakami w promieniu 1,5 metra. Przeciwnik, ktÃ³ry bÄ™dÄ…c w tym obszarze trafi druida jakÄ…Å› broniÄ… lub zaklÄ™ciem, otrzyma 1k8 +2 obraÅ¼eÅ„ od zimna.~
-@17 = ~Lodowa nawaÅ‚nica~
-@18 = ~Lodowa nawaÅ‚nica (WywoÅ‚ywanie)
+B³êkitna tarcza chroni druidaa przed obra¿eniami od zimna, otaczaj¹c go tarcz¹ lodowych p³omieni. Nie tylko daje ona 50% odpornoœci na zimno, ale te¿ chroni przed atakami w promieniu 1,5 metra. Przeciwnik, który bêd¹c w tym obszarze trafi druida jak¹œ broni¹ lub zaklêciem, otrzyma 1k8 +2 obra¿eñ od zimna.~
+@17 = ~Lodowa nawa³nica~
+@18 = ~Lodowa nawa³nica (Wywo³ywanie)
 Poziom: 4
-ZasiÄ™g: pole widzenia
-Czas dziaÅ‚ania: 4 rundy
+Zasiêg: pole widzenia
+Czas dzia³ania: 4 rundy
 Czas rzucania: 4
-Obszar dziaÅ‚ania: w promieniu 10 m
+Obszar dzia³ania: w promieniu 10 m
 Rzut obronny: brak
 
-Ten czar przywoÅ‚uje grad, ktÃ³ry zadaje 2k8 obraÅ¼eÅ„ od chÅ‚odu wszystkim istotom znajdujÄ…cym siÄ™ w obszarze jego dziaÅ‚ania. Wszyscy, ktÃ³rzy nie opuszczÄ… obszaru dziaÅ‚ania, otrzymujÄ… kolejne 2k8 pkt. obraÅ¼eÅ„ przez 4 rundy.~
+Ten czar przywo³uje grad, który zadaje 2k8 obra¿eñ od ch³odu wszystkim istotom znajduj¹cym siê w obszarze jego dzia³ania. Wszyscy, którzy nie opuszcz¹ obszaru dzia³ania, otrzymuj¹ kolejne 2k8 pkt. obra¿eñ przez 4 rundy.~
 @19 = ~Ognista tarcza (czerwona)~
-@20 = ~Ognista tarcza (czerwona) (WywoÅ‚ywanie/Przemiany)
+@20 = ~Ognista tarcza (czerwona) (Wywo³ywanie/Przemiany)
 Poziom: 4
-ZasiÄ™g: 0
-Czas dziaÅ‚ania: 3 rundy + 1 runda/poziom
+Zasiêg: 0
+Czas dzia³ania: 3 rundy + 1 runda/poziom
 Czas rzucania: 4
-Obszar dziaÅ‚ania: rzucajÄ…cy czar
+Obszar dzia³ania: rzucaj¹cy czar
 Rzut obronny: brak
 
-Czerwona tarcza chroni druidaa przed obraÅ¼eniami od ognia, otaczajÄ…c go tarczÄ… pÅ‚omieni. Nie tylko daje ona 50% odpornoÅ›ci na ogieÅ„, ale teÅ¼ chroni przed atakami w promieniu 1,5 metra. Przeciwnik, ktÃ³ry bÄ™dÄ…c w tym obszarze trafi druida jakÄ…Å› broniÄ… lub zaklÄ™ciem, otrzyma 1k8 +2 obraÅ¼eÅ„ od ognia.~
-@21 = ~StoÅ¼ek zimna~
-@22 = ~StoÅ¼ek zimna (WywoÅ‚ywanie)
+Czerwona tarcza chroni druidaa przed obra¿eniami od ognia, otaczaj¹c go tarcz¹ p³omieni. Nie tylko daje ona 50% odpornoœci na ogieñ, ale te¿ chroni przed atakami w promieniu 1,5 metra. Przeciwnik, który bêd¹c w tym obszarze trafi druida jak¹œ broni¹ lub zaklêciem, otrzyma 1k8 +2 obra¿eñ od ognia.~
+@21 = ~Sto¿ek zimna~
+@22 = ~Sto¿ek zimna (Wywo³ywanie)
 Poziom: 5
-ZasiÄ™g: 0
-Czas dziaÅ‚ania: natychmiastowy
+Zasiêg: 0
+Czas dzia³ania: natychmiastowy
 Czas rzucania: 5
-Obszar dziaÅ‚ania: specjalny
+Obszar dzia³ania: specjalny
 Rzut obronny: 1/2
 
-RzucajÄ…c to zaklÄ™cie, druid tworzy stoÅ¼ek przeraÅ¼ajÄ…cego zimna, ktÃ³ry zaczyna siÄ™ na jego rÄ™kach, ma dÅ‚ugoÅ›Ä‡ 1,5 metra i Å›rednicÄ™ 30 centymetrÃ³w na poziom czarujÄ…cego. Wysysa on z ofiar ciepÅ‚o, zadajÄ…c im 1k4+1 obraÅ¼eÅ„ na kaÅ¼dy poziom druida. Na przykÅ‚ad mag z 10. poziomu, moÅ¼e stworzyÄ‡ stoÅ¼ek o Å›rednicy 3 metrÃ³w i dÅ‚ugoÅ›ci 15, ktÃ³ry bÄ™dzie zadawaÅ‚ 10k4+10 obraÅ¼eÅ„.~
-@23 = ~ZabÃ³jcza mgÅ‚a~
-@24 = ~ZabÃ³jcza mgÅ‚a (WywoÅ‚ania)
+Rzucaj¹c to zaklêcie, druid tworzy sto¿ek przera¿aj¹cego zimna, który zaczyna siê na jego rêkach, ma d³ugoœæ 1,5 metra i œrednicê 30 centymetrów na poziom czaruj¹cego. Wysysa on z ofiar ciep³o, zadaj¹c im 1k4+1 obra¿eñ na ka¿dy poziom druida. Na przyk³ad mag z 10. poziomu, mo¿e stworzyæ sto¿ek o œrednicy 3 metrów i d³ugoœci 15, który bêdzie zadawa³ 10k4+10 obra¿eñ.~
+@23 = ~Zabójcza mg³a~
+@24 = ~Zabójcza mg³a (Wywo³ania)
 Poziom: 6
-ZasiÄ™g: 10 metrÃ³w
-Czas dziaÅ‚ania: 1 tura
+Zasiêg: 10 metrów
+Czas dzia³ania: 1 tura
 Czas rzucania: 6
-Obszar dziaÅ‚ania: w promieniu 10 m
+Obszar dzia³ania: w promieniu 10 m
 Rzut obronny: brak
 
-Rzucenie tego czaru tworzy gÄ™sty obÅ‚ok mgÅ‚y, ktÃ³ra jest silnie Å¼rÄ…ca. Wszystkie nieodporne na kwas Å¼ywe istoty otrzymujÄ… 8 punktÃ³w obraÅ¼eÅ„ w kaÅ¼dej rundzie gdy stykajÄ… siÄ™ z oparami zabÃ³jczej mgÅ‚y. ZabÃ³jcza mgÅ‚a zabija ponadto wszystkie przywoÅ‚ane istoty, niezaleÅ¼nie od ich odpornoÅ›ci i iloÅ›ci Kostek.~
-@25 = ~WyÅ‚adowanie Å‚aÅ„cuchowe (WywoÅ‚ywanie)
+Rzucenie tego czaru tworzy gêsty ob³ok mg³y, która jest silnie ¿r¹ca. Wszystkie nieodporne na kwas ¿ywe istoty otrzymuj¹ 8 punktów obra¿eñ w ka¿dej rundzie gdy stykaj¹ siê z oparami zabójczej mg³y. Zabójcza mg³a zabija ponadto wszystkie przywo³ane istoty, niezale¿nie od ich odpornoœci i iloœci Kostek.~
+@25 = ~Wy³adowanie ³añcuchowe (Wywo³ywanie)
 Poziom: 6
-ZasiÄ™g: pole widzenia
-Czas dziaÅ‚ania: natychmiastowy
+Zasiêg: pole widzenia
+Czas dzia³ania: natychmiastowy
 Czas rzucania: 5
-Obszar dziaÅ‚ania: specjalny
+Obszar dzia³ania: specjalny
 Rzut obronny: 1/2
 
-Kiedy druid rzuci to zaklÄ™cie, z jego palcÃ³w wystrzelÄ… strumienie energii elektrycznej. Te oÅ›lepiajÄ…ce bÅ‚yskawice przeskakujÄ… na wszystkich wrogÃ³w w pobliÅ¼u czarodzieja, poraÅ¼ajÄ…c ich prÄ…dem. BÅ‚yskawice zadajÄ… 1k6 obraÅ¼eÅ„ na 2 poziomy druida. JeÅ›li ofiara bÅ‚yskawicy wykona udany rzut obronny, to otrzyma tylko poÅ‚owÄ™ obraÅ¼eÅ„. Tak wiÄ™c druid 12 poziomu zadaje swoimi bÅ‚yskawicami 6k6 obraÅ¼eÅ„ (3k6 jeÅ›li ofiara odeprze czar).~
+Kiedy druid rzuci to zaklêcie, z jego palców wystrzel¹ strumienie energii elektrycznej. Te oœlepiaj¹ce b³yskawice przeskakuj¹ na wszystkich wrogów w pobli¿u czarodzieja, pora¿aj¹c ich pr¹dem. B³yskawice zadaj¹ 1k6 obra¿eñ na 2 poziomy druida. Jeœli ofiara b³yskawicy wykona udany rzut obronny, to otrzyma tylko po³owê obra¿eñ. Tak wiêc druid 12 poziomu zadaje swoimi b³yskawicami 6k6 obra¿eñ (3k6 jeœli ofiara odeprze czar).~
 @26 = ~Oddech smoka~
 @27 = ~Oddech smoka
-(Dowolna szkoÅ‚a)
+(Dowolna szko³a)
 Poziom: 10
-ZasiÄ™g: pole widzenia
-Czas dziaÅ‚ania: natychmiastowy
+Zasiêg: pole widzenia
+Czas dzia³ania: natychmiastowy
 Czas rzucenia: 3
-Obszar dziaÅ‚ania: w promieniu 10 m
+Obszar dzia³ania: w promieniu 10 m
 Rzut obronny:
 
-Po rzuceniu tego zaklÄ™cia w polu widzenia rzucajÄ…cego pojawia siÄ™ pozbawiona reszty ciaÅ‚a gÅ‚owa czerwonego smoka, ktÃ³ra zionie ogniem, dorÃ³wnujÄ…cym siÅ‚Ä… oddechowi dorosÅ‚ego czerwonego smoka. OprÃ³cz ogromnej kuli ognia, zadajÄ…cej 20k10 obraÅ¼eÅ„, siÅ‚a oddechu smoka zwala przeciwnika z nÃ³g i odrzuca go od maga. Ofiara moÅ¼e wykonaÄ‡ rzut obronny przeciw zioniÄ™ciu. JeÅ›li rzut ten siÄ™ powiedzie, otrzyma ona jedynie poÅ‚owÄ™ obraÅ¼eÅ„ i nie zostanie odrzucona siÅ‚Ä… oddechu w tyÅ‚.
+Po rzuceniu tego zaklêcia w polu widzenia rzucaj¹cego pojawia siê pozbawiona reszty cia³a g³owa czerwonego smoka, która zionie ogniem, dorównuj¹cym si³¹ oddechowi doros³ego czerwonego smoka. Oprócz ogromnej kuli ognia, zadaj¹cej 20k10 obra¿eñ, si³a oddechu smoka zwala przeciwnika z nóg i odrzuca go od maga. Ofiara mo¿e wykonaæ rzut obronny przeciw zioniêciu. Jeœli rzut ten siê powiedzie, otrzyma ona jedynie po³owê obra¿eñ i nie zostanie odrzucona si³¹ oddechu w ty³.
 
-ZaklÄ™cie to nie powoduje obraÅ¼eÅ„ u czÅ‚onkÃ³w druÅ¼yny.~
+Zaklêcie to nie powoduje obra¿eñ u cz³onków dru¿yny.~
 @28 = ~Kometa~
 @29 = ~Kometa
-(Dowolna szkoÅ‚a)
+(Dowolna szko³a)
 Poziom: 10
-ZasiÄ™g: 90 m
-Czas dziaÅ‚ania: natychmiastowy
+Zasiêg: 90 m
+Czas dzia³ania: natychmiastowy
 Czas rzucania: 9
-Obszar dziaÅ‚ania: w promieniu 10 m
+Obszar dzia³ania: w promieniu 10 m
 Rzut obronny: brak
 
-Kometa to potÄ™Å¼niejsza i bardziej wyspecjalizowana wersja zaklÄ™cia RÃ³j meteorÃ³w. Po rzuceniu czaru, w ziemiÄ™ uderza ogromny meteor lub kometa, zadajÄ…c obraÅ¼enia wszystkim wrogom, ktÃ³rzy znajdÄ… siÄ™ na drodze. Kometa przy uderzeniu wysyÅ‚a falÄ™ uderzeniowÄ…, ktÃ³ra zwala z nÃ³g i odrzuca w tyÅ‚ wszystkich nieprzyjaciÃ³Å‚ znajdujÄ…cych siÄ™ w obszarze dziaÅ‚ania zaklÄ™cia. Powaleni wrogowie muszÄ… wykonaÄ‡ rzut obronny przeciwko paraliÅ¼owi albo zostanÄ… ogÅ‚uszeni na 1k4 rundy. Sama kometa wyrzÄ…dza 10k10 obraÅ¼eÅ„.
+Kometa to potê¿niejsza i bardziej wyspecjalizowana wersja zaklêcia Rój meteorów. Po rzuceniu czaru, w ziemiê uderza ogromny meteor lub kometa, zadaj¹c obra¿enia wszystkim wrogom, którzy znajd¹ siê na drodze. Kometa przy uderzeniu wysy³a falê uderzeniow¹, która zwala z nóg i odrzuca w ty³ wszystkich nieprzyjació³ znajduj¹cych siê w obszarze dzia³ania zaklêcia. Powaleni wrogowie musz¹ wykonaæ rzut obronny przeciwko parali¿owi albo zostan¹ og³uszeni na 1k4 rundy. Sama kometa wyrz¹dza 10k10 obra¿eñ.
 
-ZaklÄ™cie to nie powoduje obraÅ¼eÅ„ u czÅ‚onkÃ³w druÅ¼yny.~ */
+Zaklêcie to nie powoduje obra¿eñ u cz³onków dru¿yny.~ */
 
-@30 = ~Armure du MaÃ®tre des Ã©lÃ©ments~
-@31 = ~Cette armure est conÃ§ue Å• partir d'Ã©cailles de dragon. Un travail Ã©lÃ©gant et soignÃ© subordonnÃ© aux considÃ©rations pratiques la rend Å• la fois belle et utile.
+@30 = ~Armure du Maître des éléments~
+@31 = ~Cette armure est conçue à partir d'écailles de dragon. Un travail élégant et soigné subordonné aux considérations pratiques la rend à la fois belle et utile.
 
 PARAMETRES :
 
-RÃ©sistance Å• la magie : +10%
+Résistance à la magie : +10%
 Classe d'armure : 8
 Poids : 5
-Force nÃ©cessaire : 6~
-@32 = ~Cette armure est conÃ§ue Å• partir d'Ã©cailles de dragon. Un travail Ã©lÃ©gant et soignÃ© subordonnÃ© aux considÃ©rations pratiques la rend Å• la fois belle et utile.
+Force nécessaire : 6~
+@32 = ~Cette armure est conçue à partir d'écailles de dragon. Un travail élégant et soigné subordonné aux considérations pratiques la rend à la fois belle et utile.
 
 PARAMETRES :
 
-RÃ©sistance Å• la magie : +10%
-RÃ©gÃ©nÃ©ration : 1 point de vie par round
+Résistance à la magie : +10%
+Régénération : 1 point de vie par round
 Classe d'armure : 6
 Poids : 5
-Force nÃ©cessaire : 6~
-@33 = ~Cette armure est conÃ§ue Å• partir d'Ã©cailles de dragon. Un travail Ã©lÃ©gant et soignÃ© subordonnÃ© aux considÃ©rations pratiques la rend Å• la fois belle et utile.
+Force nécessaire : 6~
+@33 = ~Cette armure est conçue à partir d'écailles de dragon. Un travail élégant et soigné subordonné aux considérations pratiques la rend à la fois belle et utile.
 
 PARAMETRES :
 
-RÃ©sistance Å• la magie : +10%
-RÃ©gÃ©nÃ©ration : 1 point de vie toutes les 3 secondes
+Résistance à la magie : +10%
+Régénération : 1 point de vie toutes les 3 secondes
 Classe d'armure : 4
 Poids : 5
-Force nÃ©cessaire : 6~
+Force nécessaire : 6~
