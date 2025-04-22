@@ -12,9 +12,9 @@ Avantages :
 - Aux 1er, 10ème et 20ème niveaux, +10% de résistance aux éléments.
 - Aux 9ème, 13ème et 16ème niveaux, Invocation d'élémentaires de feu.
 - Au 10ème niveau, il obtient l'Armure du Maître des éléments, puis une version améliorée au niveau 15 et encore une au niveau 20.
-- Aux 11ème, 14ème et 17ème niveaux, Invocation d'élémentaires de terre.
-- Aux 14ème, 17ème et 20ème niveaux, Invocation d'élémentaires.
-- Aux 16ème, 19ème et 22ème niveaux, Invocation de princes élémentaires.
+- Aux 11ème, 14ème et 17ème niveaux, peut lancer Invocation d'élémentaires de terre une fois par jour.
+- Aux 14ème, 17ème et 20ème niveaux, peut lancer Invocation d'élémentaires une fois par jour.
+- Aux 16ème, 19ème et 22ème niveaux, peut lancer Invocation de princes élémentaires une fois par jour.
 - Changement des capacités de haut niveau :
 Au lieu d'Invocation d'élémentaires : Comète.
 Au lieu d'Invocation de princes élémentaires : Souffle de dragon.
