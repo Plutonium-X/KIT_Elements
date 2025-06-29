@@ -2,7 +2,7 @@
 
 Avantages :
 - À accès à certains sorts arcaniques :  
- Au niveau 1 : Fains brûlantes  
+ Au niveau 1 : Mains brûlantes  
  Au niveau 3 : Flèche acide de Melf  
  Au niveau 5 : Boule de feu et Éclair  
  Au niveau 7 : Bouclier de feu (rouge) et Bouclier de feu (bleu)  
